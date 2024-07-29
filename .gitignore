@@ -1,0 +1,7 @@
+env
+requirements.txt 
+logs/
+postgres-db-volume/
+json/
+myEnv/
+
