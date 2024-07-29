@@ -1,2 +1,7 @@
-.env
-.requirements
+env
+requirements.txt 
+logs/
+postgres-db-volume/
+json/
+myEnv/
+src/sandbox.py
