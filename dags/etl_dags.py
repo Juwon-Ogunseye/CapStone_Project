@@ -55,19 +55,14 @@ with DAG('etl_dags',
     @task
     def upload_to_bigquery_task(df_json, table_id):
         try:
-            # Load Google Cloud credentials
             os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = GOOGLE_AUTH_FILE
 
-            # Initialize BigQuery client
             bigquery_client = bigquery.Client()
 
-            # Ensure the dataset exists
             create_dataset(bigquery_client, constant.PROJECT_ID, constant.DATASET_ID)
 
-            # Define BigQuery table ID
             table_ref = bigquery_client.dataset(constant.DATASET_ID).table(table_id)
 
-            # Convert JSON string back to DataFrame
             df = pd.read_json(df_json)
 
             # Convert DataFrame to BigQuery format and upload
