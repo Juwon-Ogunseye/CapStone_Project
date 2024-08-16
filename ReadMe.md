@@ -17,8 +17,9 @@ Before running the project, ensure you have the following installed:
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/Juwon-Ogunseye/CapStone_Project.git
+   cd CapStone_Project
+
    ```
 
 2. **Environment Variables**
@@ -123,8 +124,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you have any questions or need further assistance, please reach out to:
 
 - **Your Name**
-- **Email:** [your.email@example.com](mailto:your.email@example.com)
+- **Email:** [ogunseyemicheal@gmail.com](mailto:ogunseyemicheal@gmail.com)
 
 ---
 
-Feel free to replace placeholders like `<repository-url>` and `<repository-directory>` with actual values. You can also expand on the model explanations and transformations as needed.
+Feel free to replace placeholders like `https://github.com/Juwon-Ogunseye/CapStone_Project.git` and `cd CapStone_Project
+` with actual values. You can also expand on the model explanations and transformations as needed.
