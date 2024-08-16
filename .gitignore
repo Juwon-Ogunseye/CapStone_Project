@@ -6,3 +6,7 @@ postgres-db-volume/
 json/
 myEnv/
 src/testcode_py.py
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
